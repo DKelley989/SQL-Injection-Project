@@ -1,0 +1,59 @@
+@charset "utf-8"
+
+@font-face {
+    font-family: Montserrat, sans-serif;
+    src: url(https://fonts.googleapis.com/css?family=Montserrat);
+}
+
+/* Structural Styles */
+html {
+    background-color: rgba(9, 1, 127, 100%);
+}
+
+body {
+    background-color: rgba(87, 77, 255, 100%);
+    margin: 0px 100px 0px 100px;
+    padding: 5px 0px 5px 0px;
+    font-family: Montserrat, sans-serif;
+}
+
+
+
+article {
+    padding: 5px 20px 5px 20px;
+}
+
+/* Navigation Styles */
+ nav {
+    display: table;
+    width: 100%;
+    background-color: rgba(44, 39, 127, 100%);
+    overflow: hidden;
+}
+
+nav ul {
+    display: table-row;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+nav ul li {
+    display: table-cell;
+    text-align: center;
+}
+
+nav a {
+    font-size: 25px;
+    text-decoration: none;
+    margin: 120px ;
+}
+
+nav a:link, nav a:visited {
+    color: rgba(17, 1, 255, 100%);
+}
+
+nav a:hover, nav a:active {
+    color: rgba(87, 77, 255, 100%);
+}
+
