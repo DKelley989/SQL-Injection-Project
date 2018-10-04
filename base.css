@@ -7,20 +7,19 @@
 
 /* Structural Styles */
 html {
-    background-color: #AB8969;
+    background-color: #AB0505;
 }
 
 body {
-    background-color: #FFDFC1;
+    background-color: #EDEDED;
     margin: 0px 100px 0px 100px;
     padding: 0px 0px 5px 0px;
     font-family: Montserrat, sans-serif;
 }
 
-
-
-article {
+body {
     padding: 0px 20px 5px 20px;
+    text-decoration-color: #4A4E4F;
 }
 
 header img {
@@ -32,7 +31,7 @@ header img {
  nav {
     display: table;
     width: 100%;
-    background-color: #D1AC8A;
+    background-color: #303030;
     overflow: hidden;
 }
 
@@ -51,14 +50,25 @@ nav ul li {
 nav a {
     font-size: 25px;
     text-decoration: none;
-    margin-left: 33% ;
+    margin-left: 25% ;
 }
 
 nav a:link, nav a:visited {
-    color: #C3CED1;
+    color: #D90404;
 }
 
 nav a:hover, nav a:active {
-    color:#3D7685;
+    color:#4A4E4F;
+}
+
+/* Text Level Styles */
+p {
+    color: #4A4E4F;
+    padding: 10px 40px 0px 40px;
+}
+
+ul {
+    list-style: none;
+    color: #4A4E4F;
 }
 
