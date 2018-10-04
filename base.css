@@ -63,5 +63,12 @@ nav a:hover, nav a:active {
 
 /* Text Level Styles */
 p {
-    color: #4A4E4F
+    color: #4A4E4F;
+    padding: 10px 40px 0px 40px;
 }
+
+ul {
+    list-style: none;
+    color: #4A4E4F;
+}
+
