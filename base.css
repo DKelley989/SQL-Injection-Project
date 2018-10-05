@@ -1,4 +1,4 @@
-@charset "utf-8"
+@charset "utf-8";
 
 @font-face {
     font-family: Montserrat, sans-serif;
@@ -13,12 +13,11 @@ html {
 body {
     background-color: #EDEDED;
     margin: 0px 100px 0px 100px;
-    padding: 0px 0px 5px 0px;
     font-family: Montserrat, sans-serif;
 }
 
 body {
-    padding: 0px 20px 5px 20px;
+    width: auto;
     text-decoration-color: #4A4E4F;
 }
 
@@ -28,18 +27,15 @@ header img {
 }
 
 /* Navigation Styles */
- nav {
+nav {
     display: table;
     width: 100%;
     background-color: #303030;
-    overflow: hidden;
 }
 
 nav ul {
     display: table-row;
     list-style-type: none;
-    text-align: center;
-
 }
 
 nav ul li {
@@ -50,15 +46,17 @@ nav ul li {
 nav a {
     font-size: 25px;
     text-decoration: none;
-    margin-left: 25% ;
+    margin-left: 25%;
 }
 
-nav a:link, nav a:visited {
+nav li a:link,
+nav li a:visited {
     color: #D90404;
 }
 
-nav a:hover, nav a:active {
-    color:#4A4E4F;
+nav li:hover,
+nav li a:focus {
+    color: #4A4E4F;
 }
 
 /* Text Level Styles */
@@ -72,3 +70,8 @@ ul {
     color: #4A4E4F;
 }
 
+footer {
+    width: auto;
+    margin: 0% 0% 0% 0%;
+    background: #303030
+}
