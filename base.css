@@ -72,9 +72,11 @@ ul {
 }
 
 footer {
-    width: auto;
+    width: 100%;
     margin: 0% 0% 0% 0%;
-    background: #303030
+    background: #303030;
+    color: #D90404;
+    text-align: center;
 }
 
 /* This sets the text colors and creates a small section at the bottom of the page that has a title of this essay. */
