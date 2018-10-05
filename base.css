@@ -8,6 +8,7 @@
 /* Structural Styles */
 html {
     background-color: #AB0505;
+    padding-top: 1%;
 }
 
 body {
@@ -61,6 +62,17 @@ nav li a:active {
 /* This is set to have a nav under the logo and that has colors for the text, background and when clicked to hovered on. */
 
 /* Text Level Styles */
+h1, h2 {
+    text-align: center;
+    color: #4A4E4F;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+
+
 p {
     color: #4A4E4F;
     padding: 10px 40px 0px 40px;
