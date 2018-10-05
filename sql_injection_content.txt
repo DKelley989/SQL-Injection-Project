@@ -1,0 +1,58 @@
+SQL injection is one of the most devastating vulnerabilities that impact a business, as it can lead to exposure of all the sensitive information stored in an application’s database, including handy information such as usernames, passwords, names, addresses, phone numbers, and credit card details.
+
+SQL injection is the vulnerability that results when you give an attacker the ability to influence the Structured Query Language(SQL) queries that an application passes to a back-end database. By being able to influence what is passes to the database, the attacker can leverage the syntax and capabilities of SQL itself, as well as the power and flexibility of supporting database functionality and operating system functionality available to the database.
+
+SQL injection is not a vulnerability that exclusively affects Web applications; any code that accepts input from an untrusted source and then uses that input to form dynamic SQL statements could be vulnerable.
+
+SQL injection was more typically leveraged against server side databases, however with the current HTML5 specification, an attacker could equally execute JavaScript or any other codes in order to interact with a client side database to steal data. Similarly with mobile applications, malicious applications and/or client-side script can be leveraged in similar ways.
+
+SQL injection is an attack in which the SQL code is inserted or appended into application/user input parameters that are later passed to a back-end SQL server for parsing and execution.
+
+The primary form of SQL injection consists of direct insertion of code into parameters that are concatenated with SQL commands and executed.
+A less direct attack injects malicious code into strings that are destined for storage in a table or as metadata. When the stored strings are subsequently concatenated into a dynamic SQL command, the malicious code is executed.
+
+When an attacker is able to modify an SQL statement, the statement will execute with the same rights as the application user; when using the SQL server to execute commands that interact with the operating system, the process will run with the same permissions as the component that executed the command, which is often highly privileged.
+
+There are many ways to exploit SQL injection vulnerabilities to achieve a myriad of goals; the success of the attack is usually highly dependent on the underlying database and interconnected systems that are under attack.
+
+An attacker can manipulate a dynamically created SQL statement that is formed from input that has not been validated or encoded to perform actions that the developer of an application did not foresee or intend.
+A CMS is a Web application that is used to create, edit, manage, and publish content to a Web site, without having to have an in-depth understanding of or ability to code in HTML.
+
+It is difficult to correctly and accurately gather data on exactly how many organizations are vulnerable to or have been compromised via an SQL injection vulnerability, as companies in many countries, unlike their US counterparts, are not obliged by law to publicly disclose when they have experienced a serious breach of security. The smallest of breaches, that historically may have gone unnoticed by the wider public, are often heavily publicized today.
+
+Historically, attackers would compromise a Web site or Web application to score points with other hacker groups, to spread their particular political viewpoints and messages, to show off their “mad skillz”,  or simply to retaliate against a perceived slur or injustice. Today, however, an attacker is much more likely to exploit a Web application to gain financially and make a profit. 
+
+A wide range of potential groups of attackers are on the Internet today, all with differing motivations. They range from individuals looking simply to compromise systems driven by a passion for technology and a “hacker” mentality, focused criminal organizations seeking potential targets for financial proliferation, and political activists motivated by personal or group beliefs, to disgruntled employees and system administrators abusing their privileges and opportunities for a variety of goals. A SQL injection vulnerability in a Web site or Web application is often all an attacker needs to accomplish his goal.
+
+SQL is the standard language for accessing Microsoft SQL Server, Oracle, MySQL, Sybase, Informix, and other database servers. Most Web applications need to interact with a database, and most Web application programming languages such as ASP, C#, .NET, Java, and PHP, provide programmatic ways of connecting to a database and interacting with it.
+
+SQL injection vulnerabilities most commonly occur when the Web application developer does not ensure that values received from a Web form, cookie, input parameter, and so forth are validated before passing them to SQL queries that will be executed on a database server. If an attacker can control the input that is sent to an SQL query and manipulate that input so that the data is interpreted as a code instead of as data, the attacker may be able to execute the code on the back-end database.
+
+
+============================= - References - ================================
+
+https://books.google.com/books?hl=en&lr=&id=Spm7UgBwzjIC&oi=fnd&pg=PR3&dq=what+is+sql+injection&ots=k01FSJmfjI&sig=eWqG8vex0uOdIsCuvOm-Fe_vm0w#v=onepage&q=what%20is%20sql%20injection&f=false
+
+=========================================================================
+
+SQL injections can look like this. 
+
+SELECT ItemName, ItemDescription
+FROM Item
+WHERE ItemNumber = ItemNumber
+
+EMM is some data base that looks over some of the bigger servers to monitor if there is any sql injections and/or people hacking into the server.
+
+http://www.icsd.aegean.gr/lecturers/ttzouram/technicalreports/acm-sac-2008.pdf
+ 
+--------------------------------------------------------------------------------------------------------------------------------  
+ 
+How to stop a SQL injection would be to have a program randomize everything to make it a lot harder for the attacker with SQL to actually access your personal information. It stops the attacker when it notices something different in the system. The attacker doesn't know the code for the authenticator 
+
+There are many types of sql injections. There are union injections, error based injections, and blind injections.  Union injections are the most common or the most used. Error injections are  “An error-based SQL injection is the simplest type; but, the only difficulty with this method is that it runs only with MS-SQL Server. In this attack, we cause an application to show an error to extract the database”. The last one would be blind injection. It is the hardest one out of all of the three and in is through a question database. It is split up into 2 parts. It would be Boolean-based SQL injection, and Time-based SQL injection. The 2 SQL’s that i listed is a question based and a timeline based attacks. 
+
+Yeah, that's a criminal act. It depends on where you are as to how criminal, but it's criminal. Don't do it. In the US, SQL injection and other types of “hacking” are illegal under various laws and regulations stemming from the Computer Fraud and Abuse Act and the Patriot Act.
+
+If you want to learn sql injections, it could take up to 2-3 weeks for the basic sql injections, but i would highly suggest not to do it.
+
+Sql injections can be very harmful in the wrong hands. Take this fellow as an example, Albert Gonzalez. He has stolen over 100 million credit cards and over 600 financial services and took over 300 million dollars stole most of every identity , but was later caught and was sentenced to 12 years in prison, or 
