@@ -8,7 +8,6 @@
 /* Structural Styles */
 html {
     background-color: #AB0505;
-    margin: 1%;
 }
 
 body {
@@ -75,9 +74,7 @@ ul {
 footer {
     width: auto;
     margin: 0% 0% 0% 0%;
-    padding: .3% 5% .3% 5%;
-    background: #303030;
-    color: #D90404;
+    background: #303030
 }
 
 /* This sets the text colors and creates a small section at the bottom of the page that has a title of this essay. */
