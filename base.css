@@ -7,7 +7,7 @@
 
 /* Structural Styles */
 html {
-    background-color: #AB0505;
+    background-color: #D90404;
     padding-top: 1%;
 }
 
@@ -50,11 +50,14 @@ nav a {
 
 nav li a:link,
 nav li a:visited {
-    color: #D90404;
+    color: #EDEDED;
 
 }
 
-nav li:hover,
+nav li a:hover {
+    color: #AB0505;
+}
+
 nav li a:active {
     color: #4A4E4F;
 }
@@ -87,7 +90,7 @@ footer {
     width: 100%;
     margin: 0% 0% 0% 0%;
     background: #303030;
-    color: #D90404;
+    color: #EDEDED;
     text-align: center;
 }
 
