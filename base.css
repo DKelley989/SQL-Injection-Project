@@ -28,37 +28,29 @@ header img {
 
 /* Navigation Styles */
 nav {
-    display: table;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: #303030;
-}
-
-nav ul {
-    display: table-row;
-    list-style-type: none;
-}
-
-nav li {
-    display: inline;
+    
 }
 
 nav a {
     font-size: 25px;
     text-decoration: none;
-    margin-left: 25%;
+    text-align: center;
 }
 
-nav li a:link,
-nav li a:visited {
+nav a:link,
+nav a:visited {
     color: #EDEDED;
 
 }
 
-nav li a:hover {
+nav a:hover {
     color: #AB0505;
 }
 
-nav li a:active {
+nav a:active {
     color: #4A4E4F;
 }
 
