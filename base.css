@@ -1,4 +1,4 @@
-@charset "utf-8"
+@charset "utf-8";
 
 @font-face {
     font-family: Montserrat, sans-serif;
@@ -7,53 +7,74 @@
 
 /* Structural Styles */
 html {
-    background-color: rgba(9, 1, 127, 100%);
+    background-color: #AB0505;
 }
 
 body {
-    background-color: rgba(87, 77, 255, 100%);
-    margin: 0px 100px 0px 100px;
-    padding: 5px 0px 5px 0px;
+    background-color: #EDEDED;
+    margin: auto 12% auto 12%;
     font-family: Montserrat, sans-serif;
+    width: auto;
+    text-decoration-color: #4A4E4F;
 }
 
-
-
-article {
-    padding: 5px 20px 5px 20px;
+header img {
+    padding-bottom: 0%;
+    width: 100%
 }
+
+/* This is to set the main colors and how the page will look. Its set have a border that will outline the body and sets the logo img all the way across the top of the body. */
 
 /* Navigation Styles */
- nav {
+nav {
     display: table;
     width: 100%;
-    background-color: rgba(44, 39, 127, 100%);
-    overflow: hidden;
+    background-color: #303030;
 }
 
 nav ul {
     display: table-row;
     list-style-type: none;
-    text-align: center;
-
 }
 
-nav ul li {
-    display: table-cell;
-    text-align: center;
+nav li {
+    display: inline;
 }
 
 nav a {
     font-size: 25px;
     text-decoration: none;
-    margin: 120px ;
+    margin-left: 25%;
 }
 
-nav a:link, nav a:visited {
-    color: rgba(17, 1, 255, 100%);
+nav li a:link,
+nav li a:visited {
+    color: #D90404;
+
 }
 
-nav a:hover, nav a:active {
-    color: rgba(87, 77, 255, 100%);
+nav li:hover,
+nav li a:active {
+    color: #4A4E4F;
 }
 
+/* This is set to have a nav under the logo and that has colors for the text, background and when clicked to hovered on. */
+
+/* Text Level Styles */
+p {
+    color: #4A4E4F;
+    padding: 10px 40px 0px 40px;
+}
+
+ul {
+    list-style: none;
+    color: #4A4E4F;
+}
+
+footer {
+    width: auto;
+    margin: 0% 0% 0% 0%;
+    background: #303030
+}
+
+/* This sets the text colors and creates a small section at the bottom of the page that has a title of this essay. */
