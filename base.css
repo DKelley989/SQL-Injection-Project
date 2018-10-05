@@ -1,4 +1,4 @@
-@charset "utf-8"
+@charset "utf-8";
 
 @font-face {
     font-family: Montserrat, sans-serif;
@@ -12,13 +12,9 @@ html {
 
 body {
     background-color: #EDEDED;
-    margin: 0px 100px 0px 100px;
-    padding: 0px 0px 5px 0px;
+    margin: auto 12% auto 12%;
     font-family: Montserrat, sans-serif;
-}
-
-body {
-    padding: 0px 20px 5px 20px;
+    width: auto;
     text-decoration-color: #4A4E4F;
 }
 
@@ -27,39 +23,42 @@ header img {
     width: 100%
 }
 
+/* This is to set the main colors and how the page will look. Its set have a border that will outline the body and sets the logo img all the way across the top of the body. */
+
 /* Navigation Styles */
- nav {
+nav {
     display: table;
     width: 100%;
     background-color: #303030;
-    overflow: hidden;
 }
 
 nav ul {
     display: table-row;
     list-style-type: none;
-    text-align: center;
-
 }
 
-nav ul li {
-    display: table-cell;
-    text-align: center;
+nav li {
+    display: inline;
 }
 
 nav a {
     font-size: 25px;
     text-decoration: none;
-    margin-left: 25% ;
+    margin-left: 25%;
 }
 
-nav a:link, nav a:visited {
+nav li a:link,
+nav li a:visited {
     color: #D90404;
+
 }
 
-nav a:hover, nav a:active {
-    color:#4A4E4F;
+nav li:hover,
+nav li a:active {
+    color: #4A4E4F;
 }
+
+/* This is set to have a nav under the logo and that has colors for the text, background and when clicked to hovered on. */
 
 /* Text Level Styles */
 p {
@@ -72,3 +71,10 @@ ul {
     color: #4A4E4F;
 }
 
+footer {
+    width: auto;
+    margin: 0% 0% 0% 0%;
+    background: #303030
+}
+
+/* This sets the text colors and creates a small section at the bottom of the page that has a title of this essay. */
