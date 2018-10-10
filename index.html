@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="base.css" />
+    <title>SQL Injection</title>
 </head>
 
 <body>
@@ -107,16 +108,31 @@
 
         <h2>How can SQL Injection be prevented?</h2>
 
-        <p>Don't use dynamic SQL. Even data sanitization routines can be flawed, so use prepared statements, parameterized queries or stored procedures instead whenever possible. But don't forget that while stored procedures prevent some types of SQL injection attacks, they fail to protect against many others, so don't rely exclusively on their use for your security.
+        <p>Don't use dynamic SQL. Even data sanitization routines can be flawed, so use prepared statements,
+            parameterized queries or stored procedures instead whenever possible. But don't forget that while stored
+            procedures prevent some types of SQL injection attacks, they fail to protect against many others, so don't
+            rely exclusively on their use for your security.
         </p>
 
-        <p>Another way to help prevent SQL Injection is to update and patch. Vulnerabilities in applications and databases that hackers can exploit using SQL injection are regularly discovered, so it's vital to apply patches and updates as soon as practical. A patch management solution might be worth the investment.
+        <p>Another way to help prevent SQL Injection is to update and patch. Vulnerabilities in applications and
+            databases that hackers can exploit using SQL injection are regularly discovered, so it's vital to apply
+            patches and updates as soon as practical. A patch management solution might be worth the investment.
         </p>
 
-        <p>Consider a web application firewall (WAF), either software or appliance-based, to help filter out malicious data. Good ones will have a comprehensive set of default rules, and make it easy to add new ones whenever necessary. A WAF can be particularly useful to provide some security protection against a new vulnerability before a patch is available. A popular example is the free, open source module ModSecurity, which is available for Apache, Microsoft IIS, and nginx web servers. ModSecurity provides a sophisticated and ever-evolving set of rules to filter potentially dangerous web requests. Its SQL injection defenses can catch most attempts to sneak SQL through web channels.
+        <p>Consider a web application firewall (WAF), either software or appliance-based, to help filter out malicious
+            data. Good ones will have a comprehensive set of default rules, and make it easy to add new ones whenever
+            necessary. A WAF can be particularly useful to provide some security protection against a new vulnerability
+            before a patch is available. A popular example is the free, open source module ModSecurity, which is
+            available for Apache, Microsoft IIS, and nginx web servers. ModSecurity provides a sophisticated and
+            ever-evolving set of rules to filter potentially dangerous web requests. Its SQL injection defenses can
+            catch most attempts to sneak SQL through web channels.
         </p>
 
-        <p>Also, reduce your attack surface. Get rid of any database functionality that you don't need to prevent a hacker taking advantage of it. For example, the xp_cmdshell extended stored procedure in MS SQL spawns a Windows command shell and passes in a string for execution, which could be very useful indeed for a hacker. The Windows process spawned by xp_cmdshell has the same security privileges as the SQL Server service account.
+        <p>Also, reduce your attack surface. Get rid of any database functionality that you don't need to prevent a
+            hacker taking advantage of it. For example, the xp_cmdshell extended stored procedure in MS SQL spawns a
+            Windows command shell and passes in a string for execution, which could be very useful indeed for a hacker.
+            The Windows process spawned by xp_cmdshell has the same security privileges as the SQL Server service
+            account.
         </p>
 
     </article>
