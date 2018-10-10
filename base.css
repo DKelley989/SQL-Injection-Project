@@ -82,4 +82,9 @@ footer {
     text-align: center;
 }
 
+body>a {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+
 /* This sets the text colors and creates a small section at the bottom of the page that has a title of this essay. */
