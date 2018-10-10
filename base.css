@@ -12,6 +12,7 @@ html {
 }
 
 body {
+    scroll-behavior: smooth;
     border: 3px solid #303030;
     background-color: #EDEDED;
     margin: auto 12% auto 12%;
@@ -19,6 +20,7 @@ body {
     font-family: Montserrat, sans-serif;
     width: auto;
     text-decoration-color: #4A4E4F;
+    
 }
 
 header img {
@@ -33,6 +35,8 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #303030;
+    position: sticky;
+    top: 0;
 }
 
 nav a {
@@ -75,12 +79,13 @@ ul {
 }
 
 footer {
-    width: 100%;
-    margin: 0% 0% 0% 0%;
     background: #303030;
     color: #EDEDED;
     text-align: center;
+    position: sticky;
+    bottom: 0;
 }
+
 /* This sets the text colors and creates a small section at the bottom of the page that has a title of this essay. */
 
 body>a {
@@ -88,6 +93,10 @@ body>a {
     grid-template-columns:1fr 0fr;
     margin: 2% 5% 2% 5%;
     color: #4A4E4F;
+    font-size: calc(16px + .4vw);
+    border: #AB0505 1px solid;
+    padding: 1vw;
+    transition: .2s;
 }
 
 body>a:link, body>a:visited {
@@ -95,5 +104,7 @@ body>a:link, body>a:visited {
 }
 
 body>a:hover, body>a:active {
-    color: #AB0505;  
+    color: #EDEDED;
+    background: #303030;  
 }
+/* This makes the body have as color changing from one color to another with a background color around the text while that also changes color. All inside a grid with a border. */
