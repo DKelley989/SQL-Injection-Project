@@ -7,13 +7,15 @@
 
 /* Structural Styles */
 html {
-    background-color: #AB0505;
+    background-color: #D90404;
     padding-top: 1%;
 }
 
 body {
+    border: 3px solid #303030;
     background-color: #EDEDED;
     margin: auto 12% auto 12%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-family: Montserrat, sans-serif;
     width: auto;
     text-decoration-color: #4A4E4F;
@@ -28,34 +30,28 @@ header img {
 
 /* Navigation Styles */
 nav {
-    display: table;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background-color: #303030;
-}
-
-nav ul {
-    display: table-row;
-    list-style-type: none;
-}
-
-nav li {
-    display: inline;
 }
 
 nav a {
     font-size: 25px;
     text-decoration: none;
-    margin-left: 25%;
+    text-align: center;
 }
 
-nav li a:link,
-nav li a:visited {
-    color: #D90404;
+nav a:link,
+nav a:visited {
+    color: #EDEDED;
 
 }
 
-nav li:hover,
-nav li a:active {
+nav a:hover {
+    color: #AB0505;
+}
+
+nav a:active {
     color: #4A4E4F;
 }
 
@@ -65,13 +61,8 @@ nav li a:active {
 h1, h2 {
     text-align: center;
     color: #4A4E4F;
+    font-size: 1.5em;
 }
-
-h2 {
-    font-size: 15px;
-}
-
-
 
 p {
     color: #4A4E4F;
@@ -87,7 +78,7 @@ footer {
     width: 100%;
     margin: 0% 0% 0% 0%;
     background: #303030;
-    color: #D90404;
+    color: #EDEDED;
     text-align: center;
 }
 
