@@ -81,19 +81,10 @@ footer {
     color: #EDEDED;
     text-align: center;
 }
-/* This sets the text colors and creates a small section at the bottom of the page that has a title of this essay. */
 
 body>a {
     display:grid;
-    grid-template-columns:1fr 0fr;
-    margin: 2% 5% 2% 5%;
-    color: #4A4E4F;
+    grid-template-columns:1fr 1fr;
 }
 
-body>a:link, body>a:visited {
-    text-decoration: none;
-}
-
-body>a:hover, body>a:active {
-    color: #AB0505;  
-}
+/* This sets the text colors and creates a small section at the bottom of the page that has a title of this essay. */
